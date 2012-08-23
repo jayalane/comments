@@ -1,0 +1,159 @@
+/* css Zen Garden default style v1.01 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+body { 
+#	font: 14t/16pt georgia; 
+	color: #004642; 
+	background: #fff;
+        padding: 1em 1em 1em 1em;
+	}
+br {
+        padding-top: 2em;
+}
+p { 
+	font: 10pt/16pt georgia; 
+	margin-top: 1em; 
+        padding-top: 2em; 
+	}
+h3 { 
+	font: italic normal 12pt georgia; 
+	margin-bottom: 0px; 
+	color: #00775C;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #0085AF;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #005D9C;
+	}
+a:hover, a:active { 
+	text-decoration: underline; 
+	color: #0085BA;
+	}
+
+
+#sidebar {
+     width: 30%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     margin: 0 2em
+}
+
+.comment { 
+    width: auto;
+#   border: 1px solid #666666;
+    display: table;
+    margin: 10px;
+}
+
+.comment_date {
+    display: table-row;
+#   border: 1px solid #666666;
+}
+.comment_subject {
+#   border: 1px solid #666666;
+    font-weight: bold;
+    font-size: 110%;
+}
+.comment_name { 
+    display: table-row;
+#   border: 1px solid #666666;
+    text-align: right;
+}
+
+.comment_body { 
+    display: table-row;
+#    border: 1px solid #666666;
+    font-size: 90%;
+    text-align: left;
+}
+
+.hot_articles {
+    width: 40%;
+    border-style: solid;
+    border-width: 0.1em;
+    font-size: 70%;
+}
+
+.recent_comments {
+    width: 70%;
+    border-style: solid;
+    border-width: 0.1em;
+}
+.recent_comments_item {
+    font-size: 70%;
+    display: table-row;
+    margin: 2em 16em 2em 2em;
+}
+
+.recent_quoted {
+    color: #070707;
+    font-size: 110%;
+}
+
+
+#sidebar br {
+	margin: 1em;
+}
+#sidebar p {
+	padding: 1em;
+}
+
+#wiki {
+     width: 65%;
+     position: absolute;
+     top: 0;
+     right: 0;
+     margin: 1em 1em;
+
+}
+.fld {
+	width: 100%;
+}
+
+.tablediv {
+display:  table;
+width:800px;
+background-color:#eee;
+border:1px solid  #666666;
+border-spacing:5px;/*cellspacing:poor IE support for  this*/
+border-collapse:separate;
+}
+
+.celldiv {
+float:left;/*fix for  buggy browsers*/
+display:  table-cell;
+width:100%;
+background-color:#ccc;
+}
+.celldivl {
+float:left;/*fix for  buggy browsers*/
+display:  table-cell;
+width:30%;
+background-color:#ccc;
+}
+.celldivr {
+float:left;/*fix for  buggy browsers*/
+display:  table-cell;
+width:70%;
+/* background-color:#ccc; */
+}
+
+.rowdiv  {
+display:  table-row;
+width:auto;
+}
