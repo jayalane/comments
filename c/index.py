@@ -295,7 +295,7 @@ def post_comment(req, ** args):
 <div class="celldivl"><label class="post_comment_field" for="akkeop">Website / blog:</label></div>
 <div class="celldivr"><input type="text" name="akkeop" maxlength="127" class="fld"></div></div>
 <div class="rowdiv">
-<p style="cursor: pointer; cursor: hand;" onclick="if (document.forms[1].onsubmit()) { document.forms[1].submit();};"><b>Click to Save</b></p>
+<p style="cursor: pointer; cursor: hand;" onclick="if (document.forms[0].onsubmit()) { document.forms[0].submit();};"><b>Click to Save</b></p>
 <span style="display: none;"><input type="submit"/></span>
 </div>
 </div></div>

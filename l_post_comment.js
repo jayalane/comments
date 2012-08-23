@@ -5,7 +5,7 @@ var post_comment = {
         var the_node = e.target;
         toggle_visible(the_node);
 	if (post_comment.first_time == 0) {
-            document.forms[1].elements[1].focus();
+            document.forms[0].elements[1].focus();
 	    post_comment.first_time = 1;
 	}
     },
@@ -21,7 +21,7 @@ var post_comment = {
         var a;
         var post_body = "";
         var amp_string = "";
-        ary = document.forms[1].elements;
+        ary = document.forms[0].elements;
         msg = "I'm sorry, but the following required fields are missing:\n\n"
         valided = true;
         for (a = 0; a < ary.length; a++) {
